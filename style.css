@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300;400&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: linear-gradient(141deg, rgb(74, 163, 159) 0%, rgb(45, 105, 133) 100%);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.time {
+    font-size: 2em;
+    font-family: 'Sarabun', sans-serif;
+    color: white;
+    line-height: 3em;
+}
+
+.timezone {
+    font-size: 2.5em;
+    font-family: 'Sarabun', sans-serif;
+    color: white;
+    line-height: 3em;
+}
+
+.degree-number {
+    font-size: 2.5em;
+    line-height: 3em;
+    font-family: 'Sarabun', sans-serif;
+    cursor: pointer;
+    color: white;
+}
