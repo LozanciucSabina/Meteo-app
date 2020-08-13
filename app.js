@@ -1,7 +1,6 @@
 
 const time = document.querySelector(".time");
 const timezoneLocation = document.querySelector(".timezone");
-const weatherIcon = document.querySelector(".weather-icon");
 const weaterDegree = document.querySelector(".weather-degree");
 const degreeNumber = document.querySelector(".degree-number");
 const degreeCelsius = document.querySelector(".degree-celsius");
